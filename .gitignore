@@ -157,3 +157,8 @@ crashlytics-build.properties
 fabric.properties
 
 .idea
+data/
+backup
+db.sqlite3
+batch.py
+notes
