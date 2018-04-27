@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'eaves.apps.EavesConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +53,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'RentViz.urls'
 
+# https://stackoverflow.com/questions/44890665/after-installing-jinja2-templatedoesnotexist-at-admin
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
