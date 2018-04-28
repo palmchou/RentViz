@@ -162,3 +162,6 @@ backup
 db.sqlite3
 batch.py
 notes
+.babelrc
+node_modules
+frontend/static/frontend/main.js
